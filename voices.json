@@ -1,0 +1,69 @@
+{
+ "voices": {
+  "oliver": {
+   "elevenlabs_voice_id": "L1aJrPa7pLJEyYlh3Ilq",
+   "library_name": "Oliver - Clean, British and Steady",
+   "description": "British, male, older; warm, kind, a hint of whimsy",
+   "laughs": {
+    "npcvoice.laugh.oliver.1": "[laughs heartily] Ha ha ha!",
+    "npcvoice.laugh.oliver.2": "[chuckles] Oh, that's a good one!",
+    "npcvoice.laugh.oliver.3": "[laughs] Ha! Very good, very good."
+   },
+   "used_by": [
+    {
+     "model": "titanic",
+     "role": "steward"
+    }
+   ]
+  },
+  "elizabeth": {
+   "elevenlabs_voice_id": "AXdMgz6evoL7OPd7eU12",
+   "library_name": "Elizabeth - Precise, Clear and Natural",
+   "description": "British, female, middle-aged; kind and friendly",
+   "laughs": {
+    "npcvoice.laugh.elizabeth.1": "[giggles] Hee hee hee!",
+    "npcvoice.laugh.elizabeth.2": "[laughs] Oh, you are funny!",
+    "npcvoice.laugh.elizabeth.3": "[laughs warmly] Ha ha ha!"
+   },
+   "used_by": [
+    {
+     "model": "titanic",
+     "role": "stewardess"
+    }
+   ]
+  },
+  "wilf": {
+   "elevenlabs_voice_id": "yZ3w1DL4ZAxIdOscv2t8",
+   "library_name": "Wilf - Cheerful, Quirky & Northern",
+   "description": "Northern English, male, middle-aged; comic storytelling",
+   "laughs": {
+    "npcvoice.laugh.wilf.1": "[laughs loudly] Ha ha ha ha!",
+    "npcvoice.laugh.wilf.2": "[chuckles] Heh heh, good one!",
+    "npcvoice.laugh.wilf.3": "[laughs] Ha! Brilliant!"
+   },
+   "used_by": [
+    {
+     "model": "titanic",
+     "role": "stoker"
+    }
+   ]
+  },
+  "john_ni": {
+   "elevenlabs_voice_id": "7uDxvtPDB7zMehaRUyXh",
+   "library_name": "John - Warm, Balanced Northern Ireland",
+   "description": "Northern Irish, male, middle-aged; warm storyteller",
+   "laughs": {
+    "npcvoice.laugh.john_ni.1": "[laughs heartily] Ha ha ha!",
+    "npcvoice.laugh.john_ni.2": "[chuckles] Oh, that's a grand one!",
+    "npcvoice.laugh.john_ni.3": "[laughs] Ho ho ho!"
+   },
+   "used_by": [
+    {
+     "model": "titanic",
+     "role": "seaman"
+    }
+   ]
+  }
+ },
+ "model": "eleven_v4"
+}
