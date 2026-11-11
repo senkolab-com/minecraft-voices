@@ -139,6 +139,7 @@ class Talk:
             lab = f'{n["name"]} · {self.roles[role]["label"]}'
             F[f'talk/n/{nid}'] = [
                 f'execute if score @s {S}_busy matches 1.. run scoreboard players remove @s {S}_busy {STEP}',
+                f'execute unless entity @s[tag={m}_offers] run function {m}:talk/offers',
                 f'execute if score @s {S}_laugh matches 1.. run function {m}:talk/r/{role}/laugh_tick',
                 f'execute if score @s {S}_cl matches 1.. run function {m}:talk/sub',
                 f'execute unless score @s {S}_busy matches 1.. run tag @s remove {m}_spk',
@@ -214,6 +215,7 @@ class Talk:
                             '[{"selector":"@s","color":"%s"},{"text":": ","color":"%s"},{"text":%s,"color":"white"}]') % (
                     S, num, S, at, at + STEP - 1, HEAR, col, col, jtext(ch[ch.index(c) + 1])))
         F['talk/sub'] = sub
+        F['talk/offers'] = ['data merge entity @s {Offers:{Recipes:[]}}', f'tag @s add {m}_offers']
         # forget a player's progress (run as the player): introductions and line positions start again
         F['talk_reset'] = [f'tag @s remove {m}_m{n["id"]}' for n in self.npcs] + \
                           [f'tag @s remove {m}_n{n["id"]}' for n in self.npcs] + \
@@ -228,7 +230,7 @@ class Talk:
         name = '{text:%s,color:"%s"}' % (jtext(lab), self.roles[n['role']]['colour'])
         return (f'summon minecraft:villager {rel} {{VillagerData:{{profession:"minecraft:{n["prof"]}",level:5,'
                 f'type:"minecraft:{n.get("vtype", "plains")}"}},CustomName:{name},CustomNameVisible:1b,PersistenceRequired:1b,'
-                f'Invulnerable:1b,NoAI:1b,Silent:1b,Tags:["{m}_npc","{m}_talker","{m}_t{n["id"]}","{m}_r_{n["role"]}"{"".join(',"' + t + '"' for t in extra_tags)}],'
+                f'Invulnerable:1b,NoAI:1b,Silent:1b,Offers:{{Recipes:[]}},Tags:["{m}_npc","{m}_talker","{m}_t{n["id"]}","{m}_r_{n["role"]}"{"".join(',"' + t + '"' for t in extra_tags)}],'
                 f'Rotation:[{rotation}f,0f]}}')
 
     # ---- resource packs

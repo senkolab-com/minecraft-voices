@@ -179,8 +179,8 @@ def label_entities(m, face):
     out = []
     for (x, y, z, title, sub, facing) in m.labels:
         p = world(x, y + 2, z, face)
-        txt = '{text:%s,color:"gold",bold:true,extra:[%s]}' % (
-            json.dumps(title), ('{text:%s,color:"white",bold:false}' % json.dumps('\n' + sub)) if sub else '')
+        txt = '{text:%s,color:"gold",bold:true%s}' % (
+            json.dumps(title), (',extra:[{text:%s,color:"white",bold:false}]' % json.dumps('\n' + sub)) if sub else '')
         out.append(f'summon minecraft:text_display {rel(p)} {{text:{txt},billboard:"center",alignment:"center",'
                    f'background:1073741824,see_through:0b,shadow:1b,line_width:400,'
                    f'transformation:{{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.6f,1.6f,1.6f]}},'
