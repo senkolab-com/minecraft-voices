@@ -17,9 +17,10 @@ import zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 AUDIO = os.path.join(ROOT, 'audio')
+JAVA_ASSETS = os.path.join(ROOT, 'java_assets')     # extra Java assets (item models + textures): java_assets/<ns>/...
 PACKS = os.path.join(ROOT, 'packs')
 RESOURCE_FORMAT = (88, 107)          # Java 26.2 resource pack format 88 (and later until it changes)
-VERSION = [1, 0, 0]                  # bump for every Bedrock release, so clients download it again
+VERSION = [1, 1, 0]                  # bump for every Bedrock release, so clients download it again
 NS = uuid.uuid5(uuid.NAMESPACE_URL, 'senkolab-minecraft/talking-npc-voices')
 
 
@@ -49,11 +50,16 @@ def main():
         for c in cs}}
     jp = os.path.join(PACKS, 'voices_java.zip')
     with zipfile.ZipFile(jp, 'w') as z:
-        zwrite(z, 'pack.mcmeta', json.dumps({'pack': {'description': 'Talking NPC voices (senkolab-com/minecraft-voices)',
+        zwrite(z, 'pack.mcmeta', json.dumps({'pack': {'description': 'Talking NPC voices + garden plant models (senkolab-com/minecraft-voices)',
                                                       'min_format': RESOURCE_FORMAT[0], 'max_format': RESOURCE_FORMAT[1]}}, indent=2))
         zwrite(z, 'assets/minecraft/sounds.json', json.dumps(java, indent=1))
         for c in cs:
             zwrite(z, f'assets/minecraft/sounds/{c}.ogg', open(os.path.join(AUDIO, c + '.ogg'), 'rb').read())
+        if os.path.isdir(JAVA_ASSETS):
+            for rt, _, fs in sorted(os.walk(JAVA_ASSETS)):
+                for f in sorted(fs):
+                    full = os.path.join(rt, f)
+                    zwrite(z, 'assets/' + os.path.relpath(full, JAVA_ASSETS).replace(os.sep, '/'), open(full, 'rb').read())
     bp = os.path.join(PACKS, 'voices_bedrock.mcpack')
     man = {'format_version': 2,
            'header': {'name': 'Talking NPC voices', 'description': 'senkolab-com/minecraft-voices',

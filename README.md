@@ -22,3 +22,17 @@ Laughs belong to a voice, not a model: a new model that reuses a voice reuses it
 Adding a model: write `models/<model>/<model>_talk.py` (roles with a voice slug, lines, NPCs), generate the clips with
 the runner, process them into `audio/<model>/voice/`, run `tools/build_packs.py`, update `voices.json`, commit, and
 update `resource-pack-sha1` on the server.
+
+## Models (November 2026)
+
+| Model | Clips | Voices |
+|---|---|---|
+| `chocolate-factory` (Cocoa Clockworks) | 10 guide introductions + 30 lines | tarquin, flicker, cornelius, drvon, lucy, pip, verity, beezle, annabel, vedasky |
+| `garden-education` (Garden School) | 8 gardener talks, 45–60 s each | eldrin, ziggy, pixie, daniel, summer, lee, jayjay, daisy |
+
+`java_assets/` holds extra Java-only assets packed into `voices_java.zip`: the garden plant item models and textures
+(`garden-education:tomato`, `cucumber`, `onion`, `rice`, `blueberry`, `strawberry`, `carrot_pulled`), shown in game by
+`item_display` entities. Bedrock (Geyser) does not show display entities, so on tablets the beds show soil only.
+
+`tools/talklib.py` now also supports: `quiet=<radius>` (an NPC waits while another one nearby is speaking), long clips
+with subtitles split into timed chunks, and roles without lines (the introduction plays on every visit).

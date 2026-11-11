@@ -1,0 +1,2102 @@
+{
+ "textures": {
+  "stem": "garden-education:plant/stem",
+  "straw": "garden-education:plant/straw",
+  "straw_flower": "garden-education:plant/straw_flower",
+  "straw_leaf": "garden-education:plant/straw_leaf",
+  "strawberry": "garden-education:plant/strawberry",
+  "tomato_green": "garden-education:plant/tomato_green",
+  "particle": "garden-education:plant/stem"
+ },
+ "elements": [
+  {
+   "from": [
+    0.5,
+    0,
+    0.5
+   ],
+   "to": [
+    15.5,
+    0.5,
+    15.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw",
+     "uv": [
+      0,
+      0,
+      15.0,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw",
+     "uv": [
+      0,
+      0,
+      15.0,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw",
+     "uv": [
+      0,
+      0,
+      15.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw",
+     "uv": [
+      0,
+      0,
+      15.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw",
+     "uv": [
+      0,
+      0,
+      15.0,
+      15.0
+     ]
+    },
+    "down": {
+     "texture": "#straw",
+     "uv": [
+      0,
+      0,
+      15.0,
+      15.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    7.2,
+    0.5,
+    7.2
+   ],
+   "to": [
+    8.8,
+    2,
+    8.8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      1.6,
+      1.5
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      1.6,
+      1.5
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      1.6,
+      1.5
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      1.6,
+      1.5
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      1.6,
+      1.6
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      1.6,
+      1.6
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    5.9,
+    4.5,
+    1.7
+   ],
+   "to": [
+    10.1,
+    5.0,
+    8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      6.3,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      6.3,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      6.3
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      6.3
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "x",
+    "origin": [
+     8,
+     4.5,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    6.4,
+    3.2,
+    3.2
+   ],
+   "to": [
+    9.6,
+    3.7,
+    8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.8,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.8,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      4.8
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      4.8
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 45.0,
+    "axis": "x",
+    "origin": [
+     8,
+     3.2,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    8,
+    4.5,
+    5.9
+   ],
+   "to": [
+    13.5,
+    5.0,
+    10.1
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      4.2
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      4.2
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "z",
+    "origin": [
+     8,
+     4.5,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    8,
+    3.2,
+    6.4
+   ],
+   "to": [
+    12,
+    3.7,
+    9.6
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      3.2
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      3.2
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 45.0,
+    "axis": "z",
+    "origin": [
+     8,
+     3.2,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    5.9,
+    4.5,
+    8
+   ],
+   "to": [
+    10.1,
+    5.0,
+    14.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      6.3,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      6.3,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      6.3
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      6.3
+     ]
+    }
+   },
+   "rotation": {
+    "angle": -22.5,
+    "axis": "x",
+    "origin": [
+     8,
+     4.5,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    6.4,
+    3.2,
+    8
+   ],
+   "to": [
+    9.6,
+    3.7,
+    12.8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.8,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.8,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      4.8
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      4.8
+     ]
+    }
+   },
+   "rotation": {
+    "angle": -45.0,
+    "axis": "x",
+    "origin": [
+     8,
+     3.2,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    2.5,
+    4.5,
+    5.9
+   ],
+   "to": [
+    8,
+    5.0,
+    10.1
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4.2,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      4.2
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      5.5,
+      4.2
+     ]
+    }
+   },
+   "rotation": {
+    "angle": -22.5,
+    "axis": "z",
+    "origin": [
+     8,
+     4.5,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    4,
+    3.2,
+    6.4
+   ],
+   "to": [
+    8,
+    3.7,
+    9.6
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      3.2,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      3.2
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      4,
+      3.2
+     ]
+    }
+   },
+   "rotation": {
+    "angle": -45.0,
+    "axis": "z",
+    "origin": [
+     8,
+     3.2,
+     8
+    ]
+   }
+  },
+  {
+   "from": [
+    1.4,
+    0.5,
+    9.6
+   ],
+   "to": [
+    4.6,
+    3.1,
+    12.4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "south": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "east": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "west": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "up": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    },
+    "down": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    1.9,
+    3.1,
+    10.0
+   ],
+   "to": [
+    4.1,
+    3.6,
+    12.0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    2.7,
+    3.6,
+    10.7
+   ],
+   "to": [
+    3.3,
+    5.6,
+    11.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "x",
+    "origin": [
+     3,
+     3.6,
+     11
+    ]
+   }
+  },
+  {
+   "from": [
+    10.9,
+    0.5,
+    2.6
+   ],
+   "to": [
+    14.1,
+    3.1,
+    5.4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "south": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "east": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "west": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "up": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    },
+    "down": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    11.4,
+    3.1,
+    3.0
+   ],
+   "to": [
+    13.6,
+    3.6,
+    5.0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    12.2,
+    3.6,
+    3.7
+   ],
+   "to": [
+    12.8,
+    5.6,
+    4.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "x",
+    "origin": [
+     12.5,
+     3.6,
+     4
+    ]
+   }
+  },
+  {
+   "from": [
+    10.4,
+    0.5,
+    11.1
+   ],
+   "to": [
+    13.6,
+    3.1,
+    13.9
+   ],
+   "faces": {
+    "north": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "south": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "east": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "west": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "up": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    },
+    "down": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    10.9,
+    3.1,
+    11.5
+   ],
+   "to": [
+    13.1,
+    3.6,
+    13.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    11.7,
+    3.6,
+    12.2
+   ],
+   "to": [
+    12.3,
+    5.6,
+    12.8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "x",
+    "origin": [
+     12,
+     3.6,
+     12.5
+    ]
+   }
+  },
+  {
+   "from": [
+    2.4,
+    0.5,
+    2.6
+   ],
+   "to": [
+    5.6,
+    3.1,
+    5.4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "south": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "east": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "west": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "up": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    },
+    "down": {
+     "texture": "#strawberry",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    2.9,
+    3.1,
+    3.0
+   ],
+   "to": [
+    5.1,
+    3.6,
+    5.0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    3.7,
+    3.6,
+    3.7
+   ],
+   "to": [
+    4.3,
+    5.6,
+    4.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "x",
+    "origin": [
+     4,
+     3.6,
+     4
+    ]
+   }
+  },
+  {
+   "from": [
+    8.4,
+    0.5,
+    12.6
+   ],
+   "to": [
+    11.6,
+    3.1,
+    15.4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#tomato_green",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "south": {
+     "texture": "#tomato_green",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.6
+     ]
+    },
+    "east": {
+     "texture": "#tomato_green",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "west": {
+     "texture": "#tomato_green",
+     "uv": [
+      0,
+      0,
+      2.8,
+      2.6
+     ]
+    },
+    "up": {
+     "texture": "#tomato_green",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    },
+    "down": {
+     "texture": "#tomato_green",
+     "uv": [
+      0,
+      0,
+      3.2,
+      2.8
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    8.9,
+    3.1,
+    13.0
+   ],
+   "to": [
+    11.1,
+    3.6,
+    15.0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    },
+    "down": {
+     "texture": "#straw_leaf",
+     "uv": [
+      0,
+      0,
+      2.2,
+      2.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    9.7,
+    3.6,
+    13.7
+   ],
+   "to": [
+    10.3,
+    5.6,
+    14.3
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      2.0
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.6,
+      0.6
+     ]
+    }
+   },
+   "rotation": {
+    "angle": 22.5,
+    "axis": "x",
+    "origin": [
+     10,
+     3.6,
+     14
+    ]
+   }
+  },
+  {
+   "from": [
+    5,
+    5.2,
+    11.5
+   ],
+   "to": [
+    7,
+    5.7,
+    13.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2.0,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      2.0
+     ]
+    },
+    "down": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      2.0
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    5.8,
+    1,
+    12.3
+   ],
+   "to": [
+    6.2,
+    5.2,
+    12.7
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      0.4
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      0.4
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    10,
+    5.2,
+    8
+   ],
+   "to": [
+    12,
+    5.7,
+    10
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      0.5
+     ]
+    },
+    "south": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      0.5
+     ]
+    },
+    "east": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      0.5
+     ]
+    },
+    "west": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      0.5
+     ]
+    },
+    "up": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      2
+     ]
+    },
+    "down": {
+     "texture": "#straw_flower",
+     "uv": [
+      0,
+      0,
+      2,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    10.8,
+    1,
+    8.8
+   ],
+   "to": [
+    11.2,
+    5.2,
+    9.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "south": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "east": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "west": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      4.2
+     ]
+    },
+    "up": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      0.4
+     ]
+    },
+    "down": {
+     "texture": "#stem",
+     "uv": [
+      0,
+      0,
+      0.4,
+      0.4
+     ]
+    }
+   }
+  }
+ ]
+}
