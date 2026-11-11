@@ -182,7 +182,7 @@ def blueberry():
 
 def strawberry():
     m = Model('strawberry')
-    m.box([0.5, 0, 0.5], [15.5, 0.5, 15.5], 'straw')
+    m.box([0, 0, 0], [16, 0.5, 16], 'straw')
     m.box([7.2, 0.5, 7.2], [8.8, 2, 8.8], 'stem')
     for (d, t) in (('n', 22.5), ('e', 22.5), ('s', 22.5), ('w', 22.5)):
         cx, cz = 8, 8
