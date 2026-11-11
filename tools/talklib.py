@@ -27,6 +27,7 @@ import re
 
 STEP = 2                # ticks between NPC updates
 NEAR, FAR, HEAR = 3, 6, 8
+HUSH = 12        # a speaker with nobody within this many blocks stops (so the next one can start)
 
 
 def strip_tags(t):
@@ -141,6 +142,7 @@ class Talk:
                 f'execute if score @s {S}_busy matches 1.. run scoreboard players remove @s {S}_busy {STEP}',
                 f'execute unless entity @s[tag={m}_offers] run function {m}:talk/offers',
                 f'execute if score @s {S}_laugh matches 1.. run function {m}:talk/r/{role}/laugh_tick',
+                f'execute if score @s {S}_busy matches 1.. if entity @s[tag={m}_spk] unless entity @a[distance=..{HUSH},gamemode=!spectator] run function {m}:talk/n/{nid}_hush',
                 f'execute if score @s {S}_cl matches 1.. run function {m}:talk/sub',
                 f'execute unless score @s {S}_busy matches 1.. run tag @s remove {m}_spk',
                 f'execute unless score @s {S}_busy matches 1.. run scoreboard players set @s {S}_cl 0',
@@ -158,6 +160,9 @@ class Talk:
                 (f'execute if entity @s[tag=!{m}_m{nid}] run function {m}:talk/n/{nid}_intro' if self.lines.get(role)
                  else f'function {m}:talk/n/{nid}_intro')] + (
                 [f'execute if score #did {S} matches 0 run function {m}:talk/r/{role}/next'] if self.lines.get(role) else [])
+            keys = [self.k_intro(nid)] + [self.k_line(role, i) for i in range(len(self.order.get(role, [])))]
+            F[f'talk/n/{nid}_hush'] = [f'stopsound @a voice minecraft:{k}' for k in keys] + [
+                f'scoreboard players set @s {S}_busy 0', f'scoreboard players set @s {S}_cl 0', f'tag @s remove {m}_spk']
             key = self.k_intro(nid)
             F[f'talk/n/{nid}_intro'] = [f'tag @s add {m}_m{nid}'] + self.start(
                 key, n['intro'], '{"text":%s,"color":"%s"}' % (jtext(lab + ': '), self.roles[role]['colour']))
